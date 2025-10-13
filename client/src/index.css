@@ -1,0 +1,44 @@
+body {
+  background-color: gainsboro;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+  background-color: blueviolet;
+  border-radius: 8px;
+  gap: .5em;
+}
+
+.login {
+  background-color: white;
+  padding: 2em;
+  margin: 20% auto;
+  width: 40%;
+  border-radius: 8px;
+  input {
+    height: 2em;
+  }
+}
+
+.login-btn {
+  width: 50%;
+  height: 2em;
+  margin: .5em auto;
+  border-radius: 10px;
+  border: 1px solid rgb(248, 175, 248);
+  cursor: pointer;
+  background-color: rgb(248, 175, 248);
+  color: white;
+}
+
+.login-btn:hover {
+  background-color: rgb(19, 214, 221) ;
+  border: 1px solid rgb(19, 214, 221) ;
+}
+
+.letter {
+  color: rgb(11, 179, 245);
+  cursor: pointer;
+}
